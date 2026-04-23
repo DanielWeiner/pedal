@@ -53,3 +53,31 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Binary output
+*.bin
+
+# Listing files
+*.lst
+
+# STM32CubeIDE / Eclipse
+Debug/
+Release/
+.settings/
+*.launch
+
+# STM32CubeMX backup
+*.bak
+
+# Keil MDK
+*.uvgui*
+*.uvoptx
+*.uvguix*
+Listings/
+Objects/
+
+# IAR Embedded Workbench
+settings/
+*.dep
+*.pbd
+*.pbi
