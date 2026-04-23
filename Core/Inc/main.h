@@ -22,8 +22,6 @@
 #ifndef __MAIN_H
 #define __MAIN_H
 
-#define STM32L432xx
-
 #ifdef __cplusplus
 extern "C" {
 #endif

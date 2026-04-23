@@ -34,11 +34,6 @@ set(sources_SRCS ${sources_SRCS}
 
 # Include directories
 set(include_c_DIRS ${include_c_DIRS}
-	${CMAKE_CURRENT_SOURCE_DIR}/Drivers/STM32L4xx_HAL_Driver/Inc
-	${CMAKE_CURRENT_SOURCE_DIR}/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy
-	${CMAKE_CURRENT_SOURCE_DIR}/Core/Inc
-	${CMAKE_CURRENT_SOURCE_DIR}/Drivers/CMSIS/Device/ST/STM32L4xx/Include
-	${CMAKE_CURRENT_SOURCE_DIR}/Drivers/CMSIS/Include
 )
 set(include_cxx_DIRS ${include_cxx_DIRS}
 )
