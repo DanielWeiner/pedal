@@ -42,12 +42,12 @@ set(cpu_PARAMS
 
 # Sources
 set(sources_SRCS
-	${CMAKE_CURRENT_SOURCE_DIR}/Src/main.c
+	${CMAKE_CURRENT_SOURCE_DIR}/Core/Src/main.c
 )
 
 # Include directories for all compilers
 set(include_DIRS
-	${CMAKE_CURRENT_SOURCE_DIR}/Inc
+	${CMAKE_CURRENT_SOURCE_DIR}/Core/Inc
 )
 
 # Include directories for each compiler

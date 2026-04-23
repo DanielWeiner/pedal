@@ -27,13 +27,18 @@ set(linker_script_SRC ${linker_script_SRC}
 
 # Sources
 set(sources_SRCS ${sources_SRCS}
-	${CMAKE_CURRENT_SOURCE_DIR}/Src/syscall.c
-	${CMAKE_CURRENT_SOURCE_DIR}/Src/sysmem.c
-	${CMAKE_CURRENT_SOURCE_DIR}/Src/startup_stm32l432xx.S
+	${CMAKE_CURRENT_SOURCE_DIR}/Core/Src/syscalls.c
+	${CMAKE_CURRENT_SOURCE_DIR}/Core/Src/sysmem.c
+	${CMAKE_CURRENT_SOURCE_DIR}/startup_stm32l432xx.s
 )
 
 # Include directories
 set(include_c_DIRS ${include_c_DIRS}
+	${CMAKE_CURRENT_SOURCE_DIR}/Drivers/STM32L4xx_HAL_Driver/Inc
+	${CMAKE_CURRENT_SOURCE_DIR}/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy
+	${CMAKE_CURRENT_SOURCE_DIR}/Core/Inc
+	${CMAKE_CURRENT_SOURCE_DIR}/Drivers/CMSIS/Device/ST/STM32L4xx/Include
+	${CMAKE_CURRENT_SOURCE_DIR}/Drivers/CMSIS/Include
 )
 set(include_cxx_DIRS ${include_cxx_DIRS}
 )
